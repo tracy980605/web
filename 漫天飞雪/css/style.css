@@ -7,3 +7,8 @@ body {
   position: fixed;
   touch-action: none;
 }
+.js{
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
