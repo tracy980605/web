@@ -406,13 +406,20 @@
 			<div class="footer-right">
 				<marquee id="move2" scrollamount="5">
 					618超级红包马上抢 淘宝APP让你快人一步
-				</marquee>
-				<div class="share-pic"><img src="images/social.png"  title="分享更快乐" />
-			</div>
-			<div id="yournote">
-				<form action="#" method="post">
-					<fieldset>
-						<legend>乐在分享</legend>
+					</marquee>
+					<div class="share-pic"><img src="./images/social.png" title="分享更多快乐" usemap="#mapxie2" border="0" />
+						<map name="mapxie2" id="mapxie2">
+							<area shape="rect" coords="5,2,53,46" href="http://weibo.com/" target="_blank" />
+							<area shape="rect" coords="53,3,102,46"  href="http://openapi.qzone.qq.com/oauth/show?client_id=217921&amp;display=pc&amp;redirect_uri=http%3A%2F%2Fwww.douguo.com%2Fapi%2Ftx_get_access_token&amp;response_type=code&amp;scope=all&amp;which=Login" target="_blank" />
+							<area shape="rect" coords="104,4,158,51" href="http://wx.qq.com/" target="_blank" />
+							<area shape="rect" coords="162,3,210,47" href="http://www.renren.com/" target="_blank" />
+							<area shape="rect" coords="208,-3,275,47"  href="http://t.qq.com/"  target="_blank" />
+						</map>
+					</div>
+					<div id="newsletter">
+						<form action="#" method="post">
+							<fieldset>
+								<legend>乐在分享</legend>
 						<input type="text" value="留下您宝贵的建议：" onfocus="this.value=(this.value=='留下您宝贵的建议')? '' : this.value ;" />
 						<input type="submit" id="subscribe" value="留言" />
 					</fieldset>
